@@ -1,0 +1,60 @@
+nav {
+  background-color: transparent;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .menu-logo {
+  display: flex;
+  height: 90px;
+  align-items: center;
+  gap: 30px;
+}
+nav .menu-logo .menu-icon {
+  background-color: black;
+  color: white;
+  width: 95px;
+  font-size: 18px;
+  height: 90px;
+  display: grid;
+  place-items: center;
+  user-select: none;
+}
+nav .menu-logo .logo img {
+  width: 118px;
+  height: 26px;
+}
+
+nav .pages-list ul {
+  display: flex;
+  gap: 40px;
+}
+nav .pages-list ul li {
+  font-size: 14px;
+  font-weight: 900;
+}
+nav .navbar-icons {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  font-size: 18px;
+}
+nav .navbar-icons .bag-shop {
+  background-color: black;
+  color: white;
+  width: 105px;
+  font-size: 18px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.opened-menubar {
+  position: absolute;
+  z-index: 2;
+}
+.scroll{
+  overflow-y: hidden;
+}
