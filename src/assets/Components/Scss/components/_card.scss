@@ -1,0 +1,119 @@
+.div {
+  border: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 350px;
+  height: 570px;
+  cursor: pointer;
+  transition: 500ms;
+  &:hover{
+    border: 1px solid black;
+
+  }
+  &:hover .change_icon {
+    opacity: 1;
+  }
+
+  .product {
+    margin-top: 112px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .image_container {
+      width: 100%;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .product_info {
+      width: 100%;
+    }
+  }
+  .like_icon {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 600ms;
+    background-color: white;
+    &:hover {
+      background-color: black;
+      color: white;
+    }
+  }
+  .change_icon {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    display: flex;
+    gap: 280px;
+    transition: 500ms;
+    .i {
+      transition: 500ms;
+
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+      font-size: 20px;
+      &:hover {
+        scale: 140%;
+      }
+    }
+  }
+  .shopping_bag {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+    transition: 500ms;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover {
+      color: white;
+      background-color: black;
+    }
+  }
+  .product_info {
+    font-family: "Roboto", sans-serif;
+    margin-top: 20px;
+    line-height: 16px;
+    p,
+    span {
+      cursor: pointer;
+    }
+    .brand {
+      color: #5a5a5a;
+      font-size: 11px;
+      &:hover {
+        color: #242424;
+      }
+    }
+    .bold {
+      font-size: 17px;
+      font-weight: 500;
+    }
+    .type {
+      font-size: 14px;
+      color: #5a5a5a;
+    }
+    .price {
+      font-weight: 500;
+      font-size: 14px;
+    }
+  }
+}
