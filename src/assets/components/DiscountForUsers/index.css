@@ -1,0 +1,31 @@
+.discount {
+  display: flex;
+  background-color: #eeedeb;
+  height: 35px;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  justify-content: center;
+}
+.discount p::selection {
+  color: white;
+  background-color: #000000;
+}
+.discount p {
+  line-height: 35px;
+  font-size: 11px;
+  color: #727272;
+  flex-grow: 15;
+  text-align: center;
+}
+.discount i {
+  display: block;
+  color: black;
+  font-size: 14.5px;
+  flex-grow: 1;
+  user-select: none;
+}
+@media screen and (max-width: 768px) and (min-width: 320px) {
+  .discount {
+    display: none;
+  }
+}
