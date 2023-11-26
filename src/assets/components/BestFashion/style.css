@@ -1,0 +1,99 @@
+.buyBestFashion {
+    width: 90%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #727272;
+    font-size: 11px;
+    font-weight: 500;
+    margin: auto;
+}
+
+.fashion {
+    width: 100%;
+    height: 480px;
+}
+
+.fashionTop {
+    width: 90%;
+    height: 143px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.fashionCenter {
+    width: 90%;
+    height: 143px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.fashionButtom {
+    width: 90%;
+    height: 143px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: auto;
+}
+
+.fashionTop p {
+    font-size: 70px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    position: relative;
+}
+
+.fashionCenter p {
+    font-size: 70px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    position: relative;
+
+}
+
+.fashionButtom p {
+    font-size: 70px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    position: relative;
+
+}
+.sup{
+    font-size: 14px;
+    position: absolute;
+    top: 20px;
+    right: -30px;
+    color: #9D9D9D;
+}
+@media only screen and (max-width: 768px) {
+.fashionMain{
+    margin-top: 170vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+}
+.fashionTop,.fashionCenter,.fashionButtom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+}
+.fashion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25vh;
+}
+
+.fashionTop p,.fashionCenter p,.fashionButtom p {
+    font-size: 3.7rem;
+}
+
+}
