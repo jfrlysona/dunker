@@ -1,0 +1,53 @@
+.text_container {
+  font-family: "Roboto", sans-serif;
+  .text {
+    width: 424px;
+    display: flex;    
+    flex-direction: column;
+    gap: 17px;
+    .first_line {
+      color: #727272;
+      font-size: 11px;
+      line-height: 20px;
+    }
+    .second_line {
+      font-family: "Yantramanav", sans-serif;
+      font-size: 60px;
+      line-height: 63px;
+      font-weight: 700;
+      margin: 0;
+    }
+    .third_line {
+      color: #242424;
+      font-size: 17px;
+      line-height: 24px;
+    }
+   
+  }
+  
+  .btn {
+    margin-top: 33px;
+    font-family: "Yantramanav", sans-serif;
+    width: 220px;
+    height: 60px;
+    border: 2px solid black;
+    background-color: inherit;
+    font-size: 14px;
+    font-weight: 900;
+    transition: 500ms;
+    cursor: pointer;
+    &:hover{
+        background-color: black;
+        color: white;
+    }
+  }
+}
+ @media (max-width: 440.98px) {
+      .text{
+        width: 300px !important;
+        .second_line {
+          font-size: 50px !important;
+        }
+      
+      }
+    }

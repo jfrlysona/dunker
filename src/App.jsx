@@ -1,3 +1,5 @@
+import Carousel from "./assets/Components/Carousel";
+import StreetVibe from "./assets/Components/StreetVibe";
 import TrendingNow from "./assets/Components/TrendingNow";
 import Section2 from "./assets/Section2";
 import Header from "./assets/components/Header";
@@ -11,6 +13,8 @@ function App() {
       <Section2 />
       <Section3 />
       <TrendingNow />
+      <StreetVibe />
+      <Carousel />
       <Footer></Footer>
     </>
   );
