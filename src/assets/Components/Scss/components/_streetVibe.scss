@@ -1,0 +1,24 @@
+.street_container{
+    max-width: 100vw;
+    height: 690px;
+    display: flex;
+    background-image: url("https://dunker.qodeinteractive.com/wp-content/uploads/2023/01/h1-parallax-img-001.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    .text_container{
+        position: absolute;
+        top: 26%;
+        right: 14%;
+    }
+    @media (max-width: 440.98px) {
+        .street_container{
+            background-position: right !important;
+        }
+        .text_container{
+            position: absolute;
+            top: 16%;
+            right: -1%;
+        }
+    }
+}
