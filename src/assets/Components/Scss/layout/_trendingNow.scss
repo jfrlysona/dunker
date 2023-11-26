@@ -5,25 +5,31 @@
   align-items: center;
   background-color: white;
   max-width: 75vw;
-  margin: 0 auto;
-  .head_text{
+  margin: 250px auto 100px;
+
+  .head_text {
     text-align: center;
     font-family: "Roboto", sans-serif;
     line-height: 0px;
-    p{
+
+    p {
       color: #5a5a5a;
-      font-size: 14px;
-      }
-      h2{
-        font-size: 60px;
-       
-      }
-
-
-}
-@media (max-width: 440.98px) {
-    h2{
-        font-size: 20px !important;
+      font-size: 11px;
+      font-weight: 500;
     }
-}
+
+    h2 {
+      font-size: 56px;
+      color: black;
+      margin-bottom: 60px;
+    }
+
+
+  }
+
+  @media (max-width: 440.98px) {
+    h2 {
+      font-size: 20px !important;
+    }
+  }
 }

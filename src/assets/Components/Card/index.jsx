@@ -5,18 +5,18 @@ function Card({ id, image, brand, name, type, price }) {
     <>
       <div className="div" id={id}>
         <div className="like_icon">
-          <i className="fa-solid fa-heart"></i>
+          <i className="fa-regular fa-heart"></i>
         </div>
         <div className="change_icon">
           <div className="left i">
-            <i className="fa-solid fa-angle-left"></i>
+            <i className="fa-regular fa-angle-left"></i>
           </div>
           <div className="right i">
-            <i className="fa-solid fa-angle-right"></i>
+            <i className="fa-regular fa-angle-right"></i>
           </div>
         </div>
         <div className="shopping_bag">
-          <i className="fa-solid fa-bag-shopping"></i>
+          <i className="fa-sharp fa-regular fa-bag-shopping"></i>
         </div>
         <div className="product">
           <div className="image_container">
