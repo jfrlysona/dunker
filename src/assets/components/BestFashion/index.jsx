@@ -3,7 +3,7 @@ import './style.css'
 
 function BestFashion() {
   return (
-    <div>
+    <div className='fashionMain'>
       <div className='buyBestFashion'>
         <p>BUY BEST FASHION</p>
       </div>

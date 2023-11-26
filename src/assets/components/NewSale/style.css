@@ -1,22 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap");
 
 .newSale {
-  width: 100%;
-  height: 660px;
-  background-color: cornflowerblue;
+  /* height: 660px; */
   display: flex;
 }
+
 .newSaleLeft {
-  width: 50%;
-  height: 660px;
-  background-color: green;
+  flex-basis: 60%;
+  /* height: 660px; */
   position: relative;
 }
+
+.newSaleLeft img {
+  width: 100%;
+  height: 100%;
+}
+
+
 .newSaleRight {
-  width: 50%;
-  height: 660px;
-  background-color: red;
+  /* width: 50%; */
+  /* height: 660px; */
   position: relative;
+}
+
+.newSaleRight img {
+  width: 100%;
+  height: 100%;
 }
 
 .newSale .newSaleLeft p {
@@ -65,4 +74,51 @@
   background-color: black;
   color: white;
   cursor: pointer;
+}
+
+@media screen and (max-width:768px) and (min-width: 425px)  {
+  .newSale {
+    margin-top: 60vh;
+    flex-direction: column;
+    height: 120vh;
+  }
+
+  .newSaleRight {
+    flex-basis: 70%;
+  }
+
+  .newSaleRight .texts .p1 {
+    font-size: 8rem;
+  }
+
+  .newSaleLeft p {
+    font-size: 8rem !important;
+  }
+
+  .newSaleRight .texts {
+    top: 10%;
+  }
+}
+@media screen and (max-width:425px) and (min-width: 320px)  {
+  .newSale {
+    margin-top: 60vh;
+    flex-direction: column;
+    height: 120vh;
+  }
+
+  .newSaleRight {
+    flex-basis: 70%;
+  }
+
+  .newSaleRight .texts .p1 {
+    font-size: 8rem;
+  }
+
+  .newSaleLeft p {
+    font-size: 8rem !important;
+  }
+
+  .newSaleRight .texts {
+    top: 10%;
+  }
 }
