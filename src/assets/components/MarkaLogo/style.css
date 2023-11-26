@@ -1,0 +1,68 @@
+.markaLogoMain {
+  max-width: 1450px;
+  height: 350px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.markaLogo {
+  width: 1440px;
+  height: 140px;
+  margin: auto;
+  display: flex;
+}
+.first {
+  width: 240px;
+  height: 140px;
+  border: 1px solid #d9d9d9;
+}
+.second {
+  width: 240px;
+  height: 140px;
+  border: 1px solid #d9d9d9;
+}
+.third {
+  width: 240px;
+  height: 140px;
+  border: 1px solid #d9d9d9;
+}
+.fourth {
+  width: 240px;
+  height: 140px;
+  border: 1px solid #d9d9d9;
+}
+.fifth {
+  width: 240px;
+  height: 140px;
+  border: 1px solid #d9d9d9;
+}
+.sixth {
+  width: 240px;
+  height: 140px;
+  border: 1px solid #d9d9d9;
+}
+.first:hover {
+  border: 2px solid black;
+  cursor: pointer;
+}
+.second:hover {
+  border: 2px solid black;
+  cursor: pointer;
+}
+.third:hover {
+  border: 2px solid black;
+  cursor: pointer;
+}
+.fourth:hover {
+  border: 2px solid black;
+  cursor: pointer;
+}
+.fifth:hover {
+  border: 2px solid black;
+  cursor: pointer;
+}
+.sixth:hover {
+  border: 2px solid black;
+  cursor: pointer;
+}

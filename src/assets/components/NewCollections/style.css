@@ -1,0 +1,124 @@
+.newCollection {
+  width: 90%;
+  height: 900px;
+  margin: 50px auto;
+}
+.newCollectionTexts {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 20;
+}
+.newCollectionTexts .p1 {
+  color: #727272;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+}
+.newCollectionTexts .p2 {
+  font-size: 55px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+}
+.cards {
+  width: 100%;
+  height: 670px;
+  margin: auto;
+  display: flex;
+  border: 1px solid #c7c2c2;
+}
+.card {
+  width: calc(100% / 3);
+  height: 670px;
+  position: relative;
+  transition: 1s;
+}
+.cardTop {
+  width: 100%;
+  height: 670px;
+  z-index: 12;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s ease-out;
+}
+.cardTop:hover {
+  height: 600px;
+  cursor: pointer;
+}
+
+.card .cardTop img {
+  width: 100%;
+  height: 100%;
+  z-index: 12;
+}
+.cardBottom {
+  width: calc(100% - 60px);
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  position: absolute;
+  bottom: 0;
+  z-index: 10;
+}
+.cardBottom p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+.cardBottom i {
+  font-size: 20px;
+}
+.cardTop .p1 {
+  position: absolute;
+  z-index: 25;
+  bottom: 70px;
+  left: 40px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  color: #9d9d9d;
+}
+.cardTop .p2 {
+  position: absolute;
+  z-index: 25;
+  bottom: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  bottom: 35px;
+  left: 40px;
+}
+.cardTop .p3 {
+  position: absolute;
+  z-index: 25;
+  bottom: 70px;
+  left: 40px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  color: #9d9d9d;
+}
+.cardTop .p4 {
+  position: absolute;
+  z-index: 25;
+  bottom: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  bottom: 35px;
+  left: 40px;
+  color: white;
+}

@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap");
+
+.newSale {
+  width: 100%;
+  height: 660px;
+  background-color: cornflowerblue;
+  display: flex;
+}
+.newSaleLeft {
+  width: 50%;
+  height: 660px;
+  background-color: green;
+  position: relative;
+}
+.newSaleRight {
+  width: 50%;
+  height: 660px;
+  background-color: red;
+  position: relative;
+}
+
+.newSale .newSaleLeft p {
+  position: absolute;
+  top: 110px;
+  left: 90px;
+  color: white;
+  font-size: 320px;
+  font-family: "Gochi Hand", cursive;
+}
+.newSaleRight .texts {
+  position: absolute;
+  top: 180px;
+  left: 70px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  gap: 20px;
+}
+.newSaleRight .texts .p1 {
+  color: white;
+  font-size: 150px;
+  font-family: "Gochi Hand", cursive;
+  color: black;
+}
+.newSaleRight .texts .p2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+}
+.newSaleRight .texts button {
+  width: 220px;
+  height: 60px;
+  border: 2px solid black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  line-height: 60px;
+  font-size: 13px;
+  background-color: initial;
+  transition: 1s;
+}
+.newSaleRight .texts button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
