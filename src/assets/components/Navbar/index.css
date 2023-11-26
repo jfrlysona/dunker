@@ -8,6 +8,19 @@ nav {
   z-index: 5;
   width: 100%;
 }
+.sticky-nav{
+  background-color: white;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  width: 100%; 
+  border-bottom: 1px solid black;
+}
 nav .menu-logo {
   display: flex;
   height: 90px;
@@ -32,6 +45,7 @@ nav .menu-logo .logo img {
 nav .pages-list ul {
   display: flex;
   gap: 40px;
+  padding-top: 15px;
 }
 nav .pages-list ul li {
   font-size: 14px;
