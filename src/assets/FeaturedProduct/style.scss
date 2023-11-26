@@ -1,0 +1,112 @@
+//aysel
+.featuredProduct {
+  height: 75vh;
+  outline: 1px solid #d9d9d9;
+  transition: all 200ms;
+  position: relative;
+  &:hover {
+    outline: 2px solid black;
+    .fa-angle-left, .fa-angle-right{
+      opacity: 1;
+      transition: all 500ms;
+      cursor: pointer;
+      &:hover{
+         font-size: 25px;
+      }
+     
+    }
+  }
+  img {
+    padding: 15px;
+    width: 350px;
+    height: 55vh;
+    cursor: pointer ;
+  }
+  .fa-angle-left, .fa-angle-right{
+    opacity: 0;
+    font-size: 20px;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+  }
+  .fa-angle-right{
+    left: 90%;
+  }
+  // .eticet{
+  //   font-size: 15px;
+  //   width: 40px;
+  //   height: 20px;
+  //   background-color: palevioletred;
+  // position: absolute;
+  // top: 5%;
+  // left:  8%;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  // border-radius: 5px;
+  // }
+  span,
+  p {
+    color: #727272;
+    font-weight: 100;
+    font-size: 13px;
+    padding-left: 30px;
+    cursor: pointer;
+    line-height: 30px;
+    transition: all 500ms;
+    &:hover {
+      color: rgb(52, 51, 51);
+    }
+  }
+  p {
+    font-size: 15px;
+  }
+  h5 {
+    font-size: 18px;
+    cursor: pointer;
+    padding-left: 30px;
+  }
+  .price {
+    font-size: 18px;
+    padding-left: 30px;
+    color: black;
+  }
+.sale{
+  font-size: 18px;
+  color: gray;
+padding-left: 10px;
+text-decoration: line-through;
+}
+  .fa-heart {
+    position: absolute;
+    top: 3%;
+    right: 5%;
+    padding: 15px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    transition: all 500ms;
+    &:hover {
+      cursor: pointer;
+      color: white;
+      background-color: black;
+    }
+  }
+  .fa-bag-shopping {
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    padding: 16px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    transition: all 500ms;
+    &:hover {
+      cursor: pointer;
+      color: white;
+      background-color: black;
+    }
+  }
+}
