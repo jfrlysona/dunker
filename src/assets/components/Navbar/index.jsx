@@ -1,13 +1,27 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./index.css";
 import Menubar from "../Menubar";
 import DiscountForUsers from "../DiscountForUsers";
 function Navbar() {
   const [openMenubar, setOpenMenubar] = useState(false);
+  const [stickyClass, setStickyClass] = useState("");
+
+  useEffect(() => {
+    window.addEventListener("scroll", stickNavbar);
+    return () => window.removeEventListener("scroll", stickNavbar);
+  }, []);
+
+  const stickNavbar = () => {
+    if (window !== undefined) {
+      let windowHeight = window.scrollY;
+      windowHeight > 830 ? setStickyClass("sticky-nav") : setStickyClass("");
+    }
+  };
+
   return (
     <>
       {openMenubar ? null : <DiscountForUsers />}
-      <nav>
+      <nav className={stickyClass}>
         <div className={`menu-logo ${openMenubar && `opened-menubar`}`}>
           <div
             className="menu-icon"
