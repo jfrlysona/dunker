@@ -1,68 +1,68 @@
-.markaLogoMain{
-    width: 1450px;
-    height: 400px;
-    margin: auto;
+.markaLogoMain {
+    max-width: 1450px;
+    height: 350px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.markaLogo{
+  }
+  .markaLogo {
     width: 1440px;
     height: 140px;
     margin: auto;
     display: flex;
-}
-.first{
+  }
+  .first {
     width: 240px;
     height: 140px;
-    border: 1px solid #D9D9D9;
-}
-.second{
+    border: 1px solid #d9d9d9;
+  }
+  .second {
     width: 240px;
     height: 140px;
-    border: 1px solid #D9D9D9;
-}
-.third{
+    border: 1px solid #d9d9d9;
+  }
+  .third {
     width: 240px;
     height: 140px;
-    border: 1px solid #D9D9D9;
-}
-.fourth{
+    border: 1px solid #d9d9d9;
+  }
+  .fourth {
     width: 240px;
     height: 140px;
-    border: 1px solid #D9D9D9;
-}
-.fifth{
+    border: 1px solid #d9d9d9;
+  }
+  .fifth {
     width: 240px;
     height: 140px;
-    border: 1px solid #D9D9D9;
-}
-.sixth{
+    border: 1px solid #d9d9d9;
+  }
+  .sixth {
     width: 240px;
     height: 140px;
-    border: 1px solid #D9D9D9;
-}
-.first:hover{
+    border: 1px solid #d9d9d9;
+  }
+  .first:hover {
     border: 2px solid black;
     cursor: pointer;
-}
-.second:hover{
+  }
+  .second:hover {
     border: 2px solid black;
     cursor: pointer;
-}
-.third:hover{
+  }
+  .third:hover {
     border: 2px solid black;
     cursor: pointer;
-}
-.fourth:hover{
+  }
+  .fourth:hover {
     border: 2px solid black;
     cursor: pointer;
-}
-.fifth:hover{
+  }
+  .fifth:hover {
     border: 2px solid black;
     cursor: pointer;
-}
-.sixth:hover{
+  }
+  .sixth:hover {
     border: 2px solid black;
     cursor: pointer;
-}
+  }
