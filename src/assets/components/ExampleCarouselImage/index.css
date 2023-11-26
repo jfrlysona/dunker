@@ -1,0 +1,47 @@
+.slide {
+  height: 95vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+.slide .slide-content {
+  width: 600px;
+  margin-left: 155px;
+}
+.slide .slide-content h1 {
+  font-size: 77px;
+  color: black;
+  font-weight: 600;
+  line-height: 75px;
+}
+.slide .slide-content p {
+  color: #242424;
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+}
+.slide .slide-content button {
+  border: 2px solid black;
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: transparent;
+  width: 221px;
+  height: 65px;
+  margin: 10px 0;
+}
+#shop-btn:hover{
+  background-color: black;
+  color: white;
+}
+.slide1 {
+  background-image: url("https://dunker.qodeinteractive.com/wp-content/uploads/2023/01/h1-rev-img-1.jpg");
+}
+.slide2 {
+  background-image: url("https://dunker.qodeinteractive.com/wp-content/uploads/2023/01/h1-rev-img-2.jpg");
+  background-position: top;
+}
+.slide3 {
+  background-image: url("https://dunker.qodeinteractive.com/wp-content/uploads/2023/01/h1-rev-img-3.jpg");
+}

@@ -6,3 +6,69 @@
     height: 100%;
     width: 770px;
 }
+.menubar .mainlist{
+    height: 100%;
+    width:250px ;
+    border-right: 2px solid #EEEDEB;
+    padding-top: 150px;
+}
+.menubar .list{
+    height: 45px;
+    width: 190px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.menubar .list .list-title{
+    color: black;
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 45px;
+}
+.menubar .fa-chevron-right{
+    font-size: 20px;
+    color: black;
+    user-select: none;
+    line-height: 40px;
+}
+.menubar a{
+    color: black;
+    text-decoration: none;
+}
+.rotate{
+    transform: rotate(90deg);
+    transition: 0.7s;
+}
+.remove-rotate{
+    transform: rotate(0deg);
+    transition: 0.7s;
+}
+
+.list .sublist .sublist-item {
+    width: 150px;
+    margin-left: 150px;
+    width: 180px;
+    display: flex;
+    height: 20px;
+    align-items: center;
+    gap: 30px;
+}
+.list .sublist .sublist-item a{
+    color: black;
+    font-size: 12px;
+    font-weight: 900;
+}
+.list .sublist-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.list-sublist .list-sublist-item{
+    color: black;
+    font-size: 12px;
+    font-weight: 900;
+}
+.list-sublist{
+    margin-left: 100px;
+    width: 150px;
+}
