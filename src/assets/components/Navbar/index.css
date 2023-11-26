@@ -36,12 +36,14 @@ nav .pages-list ul {
 nav .pages-list ul li {
   font-size: 14px;
   font-weight: 900;
+  color: black;
 }
 nav .navbar-icons {
   display: flex;
   gap: 40px;
   align-items: center;
   font-size: 18px;
+  color: black;
 }
 nav .navbar-icons .bag-shop {
   background-color: black;

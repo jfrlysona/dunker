@@ -6,7 +6,7 @@ function CarouselFadeExample({ className, title, text }) {
       <div className="slide-content">
         <h1>{title}</h1>
         <p>{text}</p>
-        <button>SHOP NOW</button>
+        <button id="shop-btn">SHOP NOW</button>
       </div>
     </div>
   );
