@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+}
+
+footer {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: #eeedeb;
+}
+
+/* Ad Section */
+
+footer #adSect {
+    
+    
+    
+    
+}
+
+#adSect .ads {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 200px;
+    border-bottom: 1px solid gainsboro;
+    padding: 124px 0 74px;
+}
+
+#adSect img {
+    width: 200px;
+    height: 60px;
+    cursor: pointer;
+}
+
+#adSect .aboutAd{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 280px;
+    gap: 30px;
+}
+
+.aboutAd i {
+    font-size: 60px;
+}
+.aboutAd h5 {
+    font-size: 17px;
+}
+
+/* Menu */
+
+#footerMenu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 66px 0;
+    border-bottom: 1px solid gainsboro;
+    margin: 0 200px;
+}
+
+#footerMenu .menuSect {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menuSect .menuItems {
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menuItems p a{
+    background-repeat: no-repeat;
+    background-image: linear-gradient(transparent calc(100% - 2px),currentColor 2px);
+    background-size: 100% 100%;
+    padding-bottom: 2px;
+    background-size: 0 100%;
+    transition: .4s cubic-bezier(.33,.52,.05,.96);
+    color: #000;
+    text-decoration: none;
+}
+
+.menuItems p a:hover {
+    background-size: 100% 100%;
+    color: #000;
+}
+
+/* Contact */
+
+#contactSect {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 200px;
+    padding: 66px 0 69px;
+    padding-right: 100px;
+}
+
+#contactSect .emailSect p{
+    width: 250px;
+}
+
+#contactSect .contactBox {
+    width: 250px;
+}
+
+.emailSect {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.emailSect .textBox {
+    border-bottom: 2px solid black;
+    width: 320px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.emailSect .textBox input {
+    border: none;
+    outline: 0;
+    padding: 10px 0;
+    width: 300px;
+    font-size: 11px;
+    font-weight: bold;
+    background-color: #eeedeb;
+}
+
+.emailSect .textBox i {
+    font-size: 23px;
+    cursor: pointer;
+}
+
+#contactSect .contactBoxes {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.contactBox {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contactBox p {
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 400ms
+}
+
+.contactBox p:hover {
+    color: rgb(104, 104, 104);
+}
+
+.contactBox span {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* Copyright */
+
+#copyright {
+    background-image: url(https://dunker.qodeinteractive.com/wp-content/uploads/2022/12/Footer-bg-img-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#copyright p {
+    color: #AEAEAE;
+    font-size: 11px;
+    padding-left: 200px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1250px) {
+    #adSect .ads{
+        grid-template-columns: repeat(2,1fr);
+        gap: 40px;
+        margin: 0 100px;
+    }
+    #footerMenu {
+        grid-template-columns: repeat(2,1fr);
+        gap: 50px;
+        margin: 0 100px;
+    }
+    #contactSect {
+        flex-direction: column;
+        gap: 40px;
+        margin: 0 100px;
+    }
+    #copyright {
+        background-position: 0;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #adSect .ads {
+        grid-template-columns: repeat(1,1fr);
+        margin: 0 100px;
+    }
+    #footerMenu {
+        grid-template-columns: repeat(1,1fr);
+        margin: 0 100px;
+    }
+    #contactSect {
+        margin: 0 100px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #adSect .ads {
+        margin: 0 30px;
+    }
+    #footerMenu {
+        margin: 0 30px;
+    }
+    #contactSect {
+        margin: 0 30px;
+    }
+
+    #contactSect .contactBoxes {
+        flex-direction: column;
+    }
+    #copyright p {
+        padding-left: 30px;
+    }
+    .emailSect .textBox {
+        width: 200px;
+    }
+}
