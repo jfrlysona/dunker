@@ -81,7 +81,30 @@
   cursor: pointer;
 }
 
-@media only screen and (max-width: 768px) {
+@media (min-width: 425px) and (max-width:768px) {
+  .newSale {
+    margin-top: 60vh;
+    flex-direction: column;
+    height: 120vh;
+  }
+
+  .newSaleRight {
+    flex-basis: 70%;
+  }
+
+  .newSaleRight .texts .p1 {
+    font-size: 8rem;
+  }
+
+  .newSaleLeft p {
+    font-size: 8rem !important;
+  }
+
+  .newSaleRight .texts {
+    top: 10%;
+  }
+}
+@media (min-width: 320px) and (max-width:425px) {
   .newSale {
     margin-top: 60vh;
     flex-direction: column;

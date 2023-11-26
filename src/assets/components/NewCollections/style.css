@@ -122,7 +122,7 @@
     left: 40px;
     color: white;
   }
-  @media only screen and (max-width: 768px) {
+  @media(min-width: 425px) and (max-width:768px) {
    .newCollectionTexts .p2{
     font-size: 33px;
     font-weight: 700;
@@ -134,4 +134,16 @@
     width: 100%;
    }
   }
+  @media(min-width: 320px) and (max-width:425px) {
+    .newCollectionTexts .p2{
+     font-size: 33px;
+     font-weight: 700;
+    }
+    .cards{
+     flex-direction: column;
+    }
+    .card{
+     width: 100%;
+    }
+   }
   

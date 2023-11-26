@@ -72,7 +72,7 @@
     right: -30px;
     color: #9D9D9D;
 }
-@media only screen and (max-width: 768px) {
+@media (min-width: 425px) and (max-width:768px) {
 .fashionMain{
     margin-top: 170vh;
     display: flex;
@@ -97,3 +97,28 @@
 }
 
 }
+@media (min-width: 320px) and (max-width:425px) {
+    .fashionMain{
+        margin-top: 170vh;
+        display: flex;
+        flex-direction: column;
+        gap: 10vh;
+    }
+    .fashionTop,.fashionCenter,.fashionButtom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1vh;
+    }
+    .fashion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25vh;
+    }
+    
+    .fashionTop p,.fashionCenter p,.fashionButtom p {
+        font-size: 3.7rem;
+    }
+    
+    }
