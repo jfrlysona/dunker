@@ -16,6 +16,7 @@
   color: #727272;
   flex-grow: 15;
   text-align: center;
+  margin-top: 14px;
 }
 .discount i {
   display: block;

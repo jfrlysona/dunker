@@ -4,6 +4,9 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: absolute;
+  z-index: 5;
+  width: 100%;
 }
 nav .menu-logo {
   display: flex;
