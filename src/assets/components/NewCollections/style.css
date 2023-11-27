@@ -134,7 +134,10 @@
     width: 100%;
    }
   }
-  @media screen and (max-width:425px) and (min-width: 320px)  {
+  @media screen and (max-width:425px)   {
+    .newCollection {
+      margin: 50px auto;
+    }
     .newCollectionTexts .p2{
      font-size: 33px;
      font-weight: 700;

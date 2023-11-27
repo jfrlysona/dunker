@@ -111,3 +111,20 @@
     }
   }
 }
+
+@media (max-width: 440.98px) {
+  .featuredPost {
+    height: 265px !important;
+    .cardhover {
+      width: 240px;
+      height: 240px;
+      bottom: -7% !important;
+      right: 6%;
+    }  
+    .icon {
+      position: absolute;
+      bottom: 23% ;
+      right: 8%; 
+    }
+  }
+}

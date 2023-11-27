@@ -1,13 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap");
 
 .newSale {
-  /* height: 660px; */
   display: flex;
 }
 
 .newSaleLeft {
   flex-basis: 60%;
-  /* height: 660px; */
   position: relative;
 }
 
@@ -18,8 +16,6 @@
 
 
 .newSaleRight {
-  /* width: 50%; */
-  /* height: 660px; */
   position: relative;
 }
 
@@ -31,14 +27,14 @@
 .newSale .newSaleLeft p {
   position: absolute;
   top: 110px;
-  left: 90px;
+  left: 39px;
   color: white;
   font-size: 320px;
   font-family: "Gochi Hand", cursive;
 }
 .newSaleRight .texts {
   position: absolute;
-  top: 180px;
+  top: 133px;
   left: 70px;
   display: flex;
   flex-direction: column;
@@ -108,6 +104,10 @@
 
   .newSaleRight {
     flex-basis: 70%;
+    
+  }
+  .newSaleRight  img{
+    object-fit: cover !important;
   }
 
   .newSaleRight .texts .p1 {
@@ -119,6 +119,6 @@
   }
 
   .newSaleRight .texts {
-    top: 10%;
+    top: 1%;
   }
 }

@@ -1,14 +1,12 @@
 .markaLogoMain {
   max-width: 1450px;
-  height: 350px;
-  margin: 0 auto;
+  margin: 30px auto;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .markaLogo {
   width: 1440px;
-  height: 140px;
   margin: auto;
   display: flex;
 }

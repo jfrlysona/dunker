@@ -27,7 +27,7 @@
 
 .fashionCenter {
     width: 90%;
-    height: 143px;
+    /* height: 143px; */
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -98,10 +98,10 @@
 }
 @media screen and (max-width:425px) and (min-width: 320px)  {
     .fashionMain{
-        margin-top: 170vh;
+
         display: flex;
         flex-direction: column;
-        gap: 10vh;
+        gap: 20vh;
     }
     .fashionTop,.fashionCenter,.fashionButtom{
         display: flex;
