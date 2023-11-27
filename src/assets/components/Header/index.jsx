@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../Navbar";
 import "./index.css";
-import CarouselFadeExample from "../Carousel";
+import CarouselFadeExample from "../CarouselSlide/";
 function Header() {
   return (
     <header>
