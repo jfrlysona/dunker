@@ -9,6 +9,8 @@
 .slide .slide-content {
   width: 600px;
   margin-left: 155px;
+  display: flex;
+  flex-direction: column;
 }
 .slide .slide-content h1 {
   font-size: 77px;
@@ -31,7 +33,7 @@
   height: 65px;
   margin: 10px 0;
 }
-#shop-btn:hover{
+#shop-btn:hover {
   background-color: black;
   color: white;
 }
@@ -44,4 +46,55 @@
 }
 .slide3 {
   background-image: url("https://dunker.qodeinteractive.com/wp-content/uploads/2023/01/h1-rev-img-3.jpg");
+}
+@media screen and (max-width: 768px) and (min-width: 320px) {
+  .slide {
+    justify-content: center;
+  }
+  .slide .slide-content {
+    max-width: 600px;
+    margin-left: 0px;
+    align-items: center;
+    padding: 0 30px;
+  }
+  .slide .slide-content h1 {
+    font-size: 65px;
+    color: white;
+    line-height: 65px;
+    text-align: center;
+  }
+  .slide .slide-content p {
+    color: white;
+    text-align: center;
+  }
+  .slide .slide-content #shop-btn {
+    border: 2px solid white;
+    color: white;
+  }
+  #shop-btn:hover {
+    background-color: white;
+    color: black;
+  }
+  .carousel-control-prev-icon {
+    display: none;
+  }
+  .carousel-control-next-icon {
+    display: none;
+  }
+  .carousel-indicators button {
+    background-color: white !important;
+  }
+}
+@media screen and (max-width: 425px) and (min-width: 320px) {
+  .slide .slide-content h1 {
+    font-size: 52px;
+    line-height: 52px;
+  }
+  .slide .slide-content p {
+    font-size: 15px;
+  }
+  .slide .slide-content button {
+    width: 201px;
+    height: 45px;
+  }
 }
