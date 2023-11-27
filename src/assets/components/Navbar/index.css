@@ -19,7 +19,7 @@ nav {
   left: 0;
   z-index: 15;
   width: 100%; 
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid lightgray;
 }
 nav .menu-logo {
   display: flex;

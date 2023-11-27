@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap");
 .featuredPost {
   position: relative;
+  height: 570px;
   &:hover {
     .cardhover {
       width: 320px;
@@ -41,7 +42,7 @@
     position: absolute;
     opacity: 0;
     background-color: white;
-    bottom: 6%;
+    bottom: 0%;
     right: 6%;
 
     .iconheart {
