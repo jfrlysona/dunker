@@ -72,6 +72,23 @@
   margin-left: 100px;
   width: 150px;
 }
+.menubar ul li {
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+    transparent calc(100% - 2px),
+    currentColor 2px
+  );
+  background-size: 100% 100%;
+  padding-bottom: 2px;
+  background-size: 0 100%;
+  transition: 0.4s cubic-bezier(0.33, 0.52, 0.05, 0.96);
+  color: #000;
+  text-decoration: none;
+}
+.menubar ul li:hover {
+  background-size: 55% 100%;
+  color: #000;
+}
 @media screen and (max-width: 768px) and (min-width: 320px) {
   .menubar {
     position: absolute;

@@ -48,7 +48,7 @@ function Navbar() {
         {openMenubar && <Menubar />}
         <div className="pages-list">
           <ul>
-            <li>HOME</li>
+            <li style={{borderBottom:'3px solid black',background:'none'}}>HOME</li>
             <li>PAGES</li>
             <li>SHOP</li>
             <li>BLOG</li>

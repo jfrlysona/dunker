@@ -51,6 +51,23 @@ nav .pages-list ul li {
   font-size: 14px;
   font-weight: 900;
   color: black;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+    transparent calc(100% - 2px),
+    currentColor 2px
+  );
+  background-size: 100% 100%;
+  padding-bottom: 2px;
+  background-size: 0 100%;
+  transition: 0.4s cubic-bezier(0.33, 0.52, 0.05, 0.96);
+}
+nav .pages-list ul li:hover {
+  background-size: 100% 100%;
+  color: #000;
+}
+nav .pages-list ul li::selection {
+  background-color: black;
+  color: white;
 }
 nav .navbar-icons {
   display: flex;

@@ -51,16 +51,16 @@ function Menubar() {
   return (
     <div className="menubar">
       <ul className="mainlist">
-        <li className="list">
-          <span className="list-title">HOME</span>{" "}
+        <li className="list" style={{background:'none'}}>
+          <span className="list-title" style={{display:'inline-block',borderBottom:'3px solid black'}}>HOME</span>{" "}
           <i
             className={`fa-regular fa-chevron-right ${showListHome ? 'rotate':'remove-rotate'} `}
             onClick={handleClickHome}
           ></i>
           {showListHome && (
             <ul className="sublist">
-              <li className="sublist-item">
-                <a href="/index.html">MAIN HOME</a>
+              <li className="sublist-item" style={{background:'none'}}>
+                <a href="/index.html" style={{display:'inline-block',borderBottom:'3px solid black'}}>MAIN HOME</a>
               </li>
               <li className="sublist-item">
                 <a href="https://dunker.qodeinteractive.com/sportswear-home/">
