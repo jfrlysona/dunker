@@ -1,6 +1,6 @@
 .newCollection {
-    width: 90%;
-    height: 900px;
+    max-width:  90%;
+    min-height: 900px;
     margin: 50px auto;
   }
   .newCollectionTexts {
@@ -28,7 +28,6 @@
   }
   .cards {
     width: 100%;
-    height: 670px;
     margin: auto;
     display: flex;
     border: 1px solid #c7c2c2;

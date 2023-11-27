@@ -1,6 +1,6 @@
 //aysel
 .featuredProduct {
-  height: 570px;
+  height: 603 px;
   outline: 1px solid #d9d9d9;
   transition: all 200ms;
   position: relative;
@@ -97,5 +97,11 @@ text-decoration: line-through;
       color: white;
       background-color: black;
     }
+  }
+@media (max-width: 575.98px) {  }
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
   }
 }

@@ -11,7 +11,7 @@ function Section3() {
       <NewCollections />
       <BestFashion />
       <NewSale />
-      <MarkaLogo />
+      <MarkaLogo /> 
     </div>
   );
 }
